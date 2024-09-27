@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c6145d6de71bda0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How to Authenticate git using the command line?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +148,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c6145d6de71bda0e",
+  "active": "3fb5b1f04b022007",
   "lastOpenFiles": [
     "README.md",
     "How to Authenticate git using the command line?.md",
