@@ -144,23 +144,14 @@
               "icon": "lucide-list",
               "title": "Outline of How to Authenticate git using the command line"
             }
-          },
-          {
-            "id": "67c13657ea932d11",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
