@@ -1,4 +1,4 @@
-To use this repository as an obsidian vault on your system, create a new folder and run. ```
+To use this repository as an obsidian vault on your system, create a new folder and run.
 
 ```
 git clone https://github.com/so-uvik/obsidian-notes.git .
