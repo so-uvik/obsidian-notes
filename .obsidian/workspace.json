@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Express Routing (Clean routes architecture).md",
+                "file": "How to Authenticate git using the command line.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Express Routing (Clean routes architecture)"
-            }
-          },
-          {
-            "id": "c3c7309052c94b65",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.6"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
+              "title": "How to Authenticate git using the command line"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "https://stackoverflow.com/questions/35942754/how-can-i-save-username-and-password-in-git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,12 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3c7309052c94b65",
+  "active": "239b959161c3b9c2",
   "lastOpenFiles": [
+    "Express Routing (Clean routes architecture).md",
     "Git tips and tricks.md",
     "How to Authenticate git using the command line.md",
     "README.md",
-    "Express Routing (Clean routes architecture).md",
     "Miscellaneous",
     "Learning"
   ]
