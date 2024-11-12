@@ -20,8 +20,36 @@
               "icon": "lucide-file",
               "title": "How to Authenticate git using the command line"
             }
+          },
+          {
+            "id": "a3a19aa7fd50eb65",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (conflict-files-obsidian-git)"
+            }
+          },
+          {
+            "id": "dc44f32cb7626d59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -52,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://stackoverflow.com/questions/35942754/how-can-i-save-username-and-password-in-git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,14 +168,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How to Authenticate git using the command line.md"
+                "file": "conflict-files-obsidian-git.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of How to Authenticate git using the command line"
+              "title": "Outline of conflict-files-obsidian-git"
+            }
+          },
+          {
+            "id": "778620d87021cdbf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -165,11 +203,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "239b959161c3b9c2",
+  "active": "dc44f32cb7626d59",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "How to Authenticate git using the command line.md",
     "Express Routing (Clean routes architecture).md",
     "Git tips and tricks.md",
-    "How to Authenticate git using the command line.md",
     "README.md",
     "Miscellaneous",
     "Learning"
