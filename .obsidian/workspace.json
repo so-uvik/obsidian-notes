@@ -20,8 +20,22 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "4034fa5d73afbbe8",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (conflict-files-obsidian-git)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,14 +158,23 @@
               "icon": "lucide-list",
               "title": "Outline of README"
             }
+          },
+          {
+            "id": "0821690cdcb262fe",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,12 +187,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fb5b1f04b022007",
+  "active": "4034fa5d73afbbe8",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "README.md",
     "Express Routing (Clean routes architecture).md",
     "Git tips and tricks.md",
     "How to Authenticate git using the command line.md",
-    "README.md",
     "Miscellaneous",
     "Learning"
   ]
