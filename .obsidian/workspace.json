@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3fb5b1f04b022007",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Express Routing (Clean routes architecture).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Express Routing (Clean routes architecture)"
-            }
-          },
-          {
             "id": "6fb08e7f69a4ca4e",
             "type": "leaf",
             "state": {
@@ -188,10 +174,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fb5b1f04b022007",
+  "active": "6fb08e7f69a4ca4e",
   "lastOpenFiles": [
-    "Git tips and tricks.md",
     "Express Routing (Clean routes architecture).md",
+    "Git tips and tricks.md",
     "README.md",
     "How to Authenticate git using the command line.md",
     "conflict-files-obsidian-git.md",
