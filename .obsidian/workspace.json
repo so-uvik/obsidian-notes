@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Express Routing (Clean routes architecture)"
             }
+          },
+          {
+            "id": "c3c7309052c94b65",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +177,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fb5b1f04b022007",
+  "active": "c3c7309052c94b65",
   "lastOpenFiles": [
     "Git tips and tricks.md",
     "How to Authenticate git using the command line.md",
