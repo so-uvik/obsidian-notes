@@ -8,4 +8,6 @@ Then open that folder as a vault in obsidian, if you're opening obsidian for the
 
 If it's not the first time then go to manage vaults from lower left corner and select the folder to get started.
 
+(I should probably make this repo private)
+
 
