@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "How to Authenticate git using the command line"
             }
+          },
+          {
+            "id": "c3c7309052c94b65",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,7 +187,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fb5b1f04b022007",
+  "active": "c3c7309052c94b65",
   "lastOpenFiles": [
     "README.md",
     "conflict-files-obsidian-git.md",
