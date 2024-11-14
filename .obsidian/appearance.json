@@ -2,5 +2,6 @@
   "cssTheme": "Catppuccin",
   "theme": "obsidian",
   "accentColor": "",
-  "textFontFamily": "Inter"
+  "textFontFamily": "Rubik",
+  "interfaceFontFamily": ""
 }
