@@ -1,5 +1,6 @@
 {
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Catppuccin",
   "theme": "obsidian",
-  "accentColor": ""
+  "accentColor": "",
+  "textFontFamily": "Inter"
 }
