@@ -1,0 +1,1 @@
+In order to initialize your repository for using git, you need to have a `.git` folder. This folder essentially holds everything in a single folder. Deep dive into it later. For now to generate a `.git` folder run `git init` inside your repository.
