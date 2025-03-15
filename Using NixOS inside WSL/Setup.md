@@ -2,6 +2,9 @@
 
 By default the sudo user does not have any password. You can change that by running:
 
+Source:
+[https://github.com/nix-community/NixOS-WSL/issues/27]
+
 ```bash
 sudo passwd nixos
 ```
@@ -13,15 +16,12 @@ Type in the following command:
 sudo nano /etc/resolv.conf
 ```
 
-And change the `nameserver` value to `8.8.8.8` and save the file. You should now be able to connect to the internet.
+And comment the original `nameserver` line and add a new line that says `nameserver 8.8.8.8` and save the file. You should now be able to connect to the internet.
 
-If you are able to connect to the internet now then you may also need to stop WSL from resetting this file when opening future terminals. You can do that by running these commands:
+For more information:
+[https://github.com/nix-community/NixOS-WSL/discussions/379]
+[https://stackoverflow.com/questions/62314789/no-internet-connection-on-wsl-ubuntu-windows-subsystem-for-linux]
 
-```bash
-sudo rm /etc/resolv.conf
-sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf'
-sudo bash -c 'echo "[network]" > /etc/wsl.conf'
-sudo bash -c 'echo "generateResolvConf = false" >> /etc/wsl.conf'
-sudo chattr +i /etc/resolv.conf
-```
+<h4>Setting up a User</h4>
+
 
