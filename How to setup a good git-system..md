@@ -30,11 +30,11 @@ Let's do it!
 
 ## 🧰 Tools You’ll Use:
 
-|Tool|Role|
-|---|---|
-|`commitizen`|Interactive commit message generation (`git cz`)|
-|`commitlint`|Lints commit messages for format violations|
-|`husky`|Adds Git hooks (cross-platform + sharable)|
+| Tool         | Role                                             |
+| ------------ | ------------------------------------------------ |
+| `commitizen` | Interactive commit message generation (`git cz`) |
+| `commitlint` | Lints commit messages for format violations      |
+| `husky`      | Adds Git hooks (cross-platform + sharable)       |
 ## 🛠 Step-by-Step Setup
 
 ### 1. Install dependencies
