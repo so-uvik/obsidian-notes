@@ -12,3 +12,13 @@ A branch is just a named [pointer](https://en.wikipedia.org/wiki/Pointer_\(compu
 
 Because a branch is just a pointer to a commit, they're lightweight and "cheap" resource-wise to create. When you create 10 branches, you're not creating 10 copies of your project on your hard drive.
 
+# Default Branch
+
+ [Git's](https://git-scm.com) default is `master` branch. Interestingly, [GitHub](https://github.com/) (a website where you can remotely store Git projects) recently changed its default branch from `master` to `main`. As a general rule, I recommend using `main` as your default branch if you work primarily with `GitHub`.
+
+## How to Rename a Branch
+
+```bash
+git branch -m oldname newname
+```
+
