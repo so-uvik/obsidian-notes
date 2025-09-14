@@ -22,7 +22,7 @@ You can see that in commit two, since content.md did not change across commits, 
 
 If you want to have a look at it yourself in the cmdline, make a new commit with a new file, and commit it (without changing the first file that was committed)
 
-Now, run `git log -1` to get the last commit hash and copy it. And then run `git cat-file -p <your-copied-commit-hash`.
+Now, run `git log -1` to get the last commit hash and copy it. And then run `git cat-file -p <your-copied-commit-hash>`.
 
 The Output should be something like this:
 
@@ -35,3 +35,29 @@ committer so-uvik <souviksahamay27@gmail.com> 1757838039 +0530
 B: add titles
 ```
 
+Take the commit hash of the `tree` and take a note of the hash of the first file you committed.
+In my case that file is `contents.md` whose hash is `ef7e93fc61a91deecaa551c4707e4c3049af42c9`
+
+```bash
+git cat-file -p 37712fab0aa902b37e2197ebb71e4e1ba4f45f3d
+100644 blob ef7e93fc61a91deecaa551c4707e4c3049af42c9    contents.md
+100644 blob 66693b8d72daef9170108c6ab4b3abd7f3950dd2    titles.md
+```
+
+Now take the commit hash of the first commit that you made and plug it to `git cat-file -p <hash>` and from there take the commit hash of the `tree` and cat-file it again. Notice the hashes of the first committed file in both cases. They are identical.
+
+```bash
+ ➜ webflyx at   on  master 𝘹 git cat-file -p 180c119 
+tree 5b21d4f16a4b07a6cde5a3242187f6a5a68b060f
+author so-uvik <souviksahamay27@gmail.com> 1757830160 +0530
+committer so-uvik <souviksahamay27@gmail.com> 1757830160 +0530
+
+A: add contents.md
+
+ ➜ webflyx at   on  master 𝘹 git cat-file -p 5b21d4f16a4b07a6cde5a3242187f6a5a68b060f
+100644 blob ef7e93fc61a91deecaa551c4707e4c3049af42c9    contents.md
+``` 
+
+Where `180c119` is the commit hash of my first commit.
+
+You can notice that the commit hash for `contents.md` is the same `ef7e93fc61a91deecaa551c4707e4c3049af42c9`
