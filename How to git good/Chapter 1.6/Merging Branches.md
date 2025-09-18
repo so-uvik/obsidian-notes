@@ -20,3 +20,37 @@ A - B - C - F    main
     D - E        other_branch
 ```
 
+# Merge Commits
+
+A merge commit is the result of merging two branches together.
+
+Let's say we start with this:
+
+```
+A - B - C    main
+   \
+    D - E    vimchadsonly
+```
+
+And we merge `vimchadsonly` into `main` by running this while on `main`:
+
+```bash
+git switch main
+git merge vimchadsonly
+```
+
+The merge will:
+
+1. Find the "merge base" commit, or "best common ancestor" of the two branches. In this case, `A`.
+2. Replay the changes from `main`, starting from the best common ancestor, into a new commit.
+3. Replay the changes from `vimchadsonly` onto `main`, starting from the best common ancestor.
+4. Records the result as a new commit, in our case, `F`.
+5. `F` is special because it has _two parents_, `C` and `E`.
+
+**After:**
+
+```
+A - B - C - F    main
+   \     /
+    D - E        vimchadsonly
+```
