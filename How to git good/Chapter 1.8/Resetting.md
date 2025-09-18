@@ -11,3 +11,16 @@ git reset --soft COMMITHASH
 ```
 
 The `--soft` option is useful if you just want to go back to a previous commit, but keep all of your changes. Committed changes will be uncommitted and staged, while uncommitted changes will remain staged or unstaged as before.
+
+# Git Reset Hard
+
+In the last lesson, we undid a commit but kept the changes. We don't want to keep the changes to `titles.md`. Here's how to reset those changes:
+
+```bash
+git reset --hard COMMITHASH
+```
+
+This is useful if you just want to go back to a previous commit and discard all the changes.
+
+>[!tip]
+>`git reset --hard` will discard all `unstaged` changes to the working tree, but not `untracked` changes. `Untracked` changes mean new files that are not yet 
