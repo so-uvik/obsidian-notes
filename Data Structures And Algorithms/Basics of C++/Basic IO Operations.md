@@ -40,6 +40,24 @@ int main() {
 
 ```
 
+### Taking whole line as one string input(including spaces)
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+	string str;
+	getline(cin, str); // This will take whole line as input including spaces.
+	// But if you press ENTER(after already giving an input), it will not pick         that up. 
+	cout << str;
+	string s1, s2;
+	cin >> s1 >> s2; // Input till the first space will go inside s1, and after        the space will go inside s2
+	cout << s1 << s2;
+}
+```
+
+
 >[!Note]
 >You can include `#include<bits/stdc++.h>` instead of just `#include<iostream>` in your program and that will include every needed library you want to use, for example `string`, `vector` etc.
 
