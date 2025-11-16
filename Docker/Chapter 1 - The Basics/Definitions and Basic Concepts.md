@@ -26,3 +26,6 @@ Containers, on the other hand, gives us 90% of the benefits of virtual machines,
 Virtual machines virtualize _hardware_, they emulate what a physical computer does at a low level. Containers virtualize at the _operating system_ level. Isolation between containers that are running on the same machine is still _really good_. For the most part, each container _feels like_ it has its own operating and filesystem. In reality, a lot of resources are being shared, but they're being shared securely through [namespaces](https://docs.docker.com/engine/security/userns-remap/).
 
 ![[01-03-tradeoffs.webp]]
+
+## Images and Containers
+
