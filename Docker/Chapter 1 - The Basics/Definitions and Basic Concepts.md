@@ -29,3 +29,23 @@ Virtual machines virtualize _hardware_, they emulate what a physical computer do
 
 ## Images and Containers
 
+- **Image**: A read-only _definition_ of a container
+- **Container**: an _instance_ of a virtualized read-write environment
+
+A container is basically an image that's **actively running**. In other words, you boot up a container _from_ an image. You can create multiple separate containers all from the same image (it's _kinda_ like the relationship between classes and objects).
+
+# Run a Container
+
+You can now download the [getting started image](https://hub.docker.com/r/docker/getting-started), using `docker run hello-world` _run_ it inside a new container. The `docker run` command starts a new container from an image. Let's break down the syntax:
+
+```bash
+# this is just an example, don't run this
+docker run -d -p hostport:containerport namespace/name:tag
+```
+
+- `-d`: Run in detached mode (doesn't block your terminal)
+- `-p`: Publish a container's port to the host (forwarding)
+- `hostport`: The port on your local machine
+- `containerport`: The port inside the container
+- `namespace/name`: The name of the image (usually in the format `username/repo`)
+- `tag`: The version of the image (often `latest`)
