@@ -15,8 +15,14 @@ Put simply: Docker allows us to deploy our applications inside "containers", whi
 
 ## Virtual Machines VS Containers
 
-Virtual Machines (VMs) run on a [hypervisor (opens in a new tab)](https://en.wikipedia.org/wiki/Hypervisor) , which virtualizes the physical hardware. Each VM includes a full operating system (OS) along with the necessary binaries and libraries, making them heavier and more resource-intensive. Containers, on the other hand, share the host OS kernel and only package the application and its dependencies, resulting in a more lightweight and efficient solution.
+Virtual Machines (VMs) run on a [hypervisor (opens in a new tab)](https://en.wikipedia.org/wiki/Hypervisor)  , which virtualizes the physical hardware. Each VM includes a full operating system (OS) along with the necessary binaries and libraries, making them heavier and more resource-intensive. Containers, on the other hand, share the host OS kernel and only package the application and its dependencies, resulting in a more lightweight and efficient solution.
 
 VMs provide strong isolation and are suited for running multiple OS environments, but they have a performance overhead and longer startup times. Containers offer faster startup, better resource utilization, and high portability across different environments, though their isolation is at the process level, which may not be as robust as that of VMs. Overall, VMs could be used for scenarios needing complete OS environments, while containers excel in lightweight, efficient, and consistent application deployment.
+
+Containers, on the other hand, gives us 90% of the benefits of virtual machines, but are _super_ lightweight. _Containers boot up in seconds, while virtual machines can take minutes._
+
+### Why Are Containers Lightweight?
+
+Virtual machines virtualize _hardware_, they emulate what a physical computer does at a low level. Containers virtualize at the _operating system_ level. Isolation between containers that are running on the same machine is still _really good_. For the most part, each container _feels like_ it has its own operating and filesystem. In reality, a lot of resources are being shared, but they're being shared securely through [namespaces](https://docs.docker.com/engine/security/userns-remap/).
 
 ![[01-03-tradeoffs.webp]]
