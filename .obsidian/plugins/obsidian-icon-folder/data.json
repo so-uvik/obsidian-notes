@@ -6,6 +6,8 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDatabase",
+      "SiDocker",
       "SiDatastax",
       "SiNixos",
       "SiGit"
@@ -34,5 +36,7 @@
   },
   "How to git good": "SiGit",
   "Using NixOS inside WSL": "SiNixos",
-  "Data Structures And Algorithms": "SiDatastax"
+  "Data Structures And Algorithms": "SiDatastax",
+  "Docker": "SiDocker",
+  "Databases": "LiDatabase"
 }

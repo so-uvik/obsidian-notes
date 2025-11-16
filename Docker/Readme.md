@@ -1,0 +1,1 @@
+This write up follows the course from [[DevOps with Docker 2025 - MOOC.fi courses](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker)] .
