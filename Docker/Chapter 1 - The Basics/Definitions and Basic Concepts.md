@@ -36,7 +36,7 @@ A container is basically an image that's **actively running**. In other words, y
 
 # Run a Container
 
-You can now download the [getting started image](https://hub.docker.com/r/docker/getting-started), using `docker run hello-world` _run_ it inside a new container. The `docker run` command starts a new container from an image. Let's break down the syntax:
+You can now download the [getting started image](https://hub.docker.com/r/docker/getting-started), using `docker run -d -p 8965:80 docker/getting-started:latest` to _run_ it inside a new container. The `docker run` command starts a new container from an image. Let's break down the syntax:
 
 ```bash
 # this is just an example, don't run this
@@ -49,3 +49,21 @@ docker run -d -p hostport:containerport namespace/name:tag
 - `containerport`: The port inside the container
 - `namespace/name`: The name of the image (usually in the format `username/repo`)
 - `tag`: The version of the image (often `latest`)
+
+### Most used commands[​](http://localhost:3000/part-1/section-1#most-used-commands)
+
+| command                             | explain                                 | shorthand       |
+| ----------------------------------- | --------------------------------------- | --------------- |
+| `docker image ls`                   | Lists all images                        | `docker images` |
+| `docker image rm <image>`           | Removes an image                        | `docker rmi`    |
+| `docker image pull <image>`         | Pulls image from a docker registry      | `docker pull`   |
+| `docker container ls -a`            | Lists all containers                    | `docker ps -a`  |
+| `docker container run <image>`      | Runs a container from an image          | `docker run`    |
+| `docker container rm <container>`   | Removes a container                     | `docker rm`     |
+| `docker container stop <container>` | Stops a container                       | `docker stop`   |
+| `docker container exec <container>` | Executes a command inside the container | `docker exec`   |
+| `docker container ls`               | Lists all running containers            | `docker ps`     |
+
+For all of them, can be either the container id or the container name. Same for images. In the future we may use the shorthand's in the material.
+
+Some of the shorthand's are legacy version of doing the same thing. You can use either.
