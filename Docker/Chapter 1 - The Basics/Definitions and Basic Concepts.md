@@ -66,4 +66,4 @@ docker run -d -p hostport:containerport namespace/name:tag
 
 For all of them, can be either the container id or the container name. Same for images. In the future we may use the shorthand's in the material.
 
-Some of the shorthand's are legacy version of doing the same thing. You can use either.
+Some of the shorthand's are legacy version of doing the same thing. You can use either. 
