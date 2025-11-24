@@ -67,3 +67,13 @@ docker run -d -p hostport:containerport namespace/name:tag
 For all of them, can be either the container id or the container name. Same for images. In the future we may use the shorthand's in the material.
 
 Some of the commands are legacy version of doing the same thing. You can use either.  
+
+## How to run commands inside the container?
+
+Usually if we want the output of just a certain command inside the container, we'd run `docker exec <container_name/container_id> <command>`. But sometimes, we need to really go inside the container and run some commands or maybe inspect inside it. We can do that by running the container in `interactive` mode.
+
+### Running containers in interactive mode
+
+To achieve this run `docker run -it <container_name/container_id>`.
+
+This will open an interactive shell inside the container.
