@@ -23,3 +23,8 @@ Images can be tagged to save different versions of the same image. You define an
 
 ### Building Images
 
+Finally, we get to build our own images and get to talk about [`Dockerfile` (opens in a new tab)](https://docs.docker.com/engine/reference/builder/) [(opens in a new tab)](https://docs.docker.com/engine/reference/builder/)
+
+ and why it's so great.
+
+Dockerfile is simply a file that contains the build instructions for an image. You define what should be included in the image with different instructions. We'll learn about the best practices here by creating one.
