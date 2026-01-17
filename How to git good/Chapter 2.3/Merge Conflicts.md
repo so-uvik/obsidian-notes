@@ -76,5 +76,13 @@ git merge their_branch
 ```
 
 ## Checkout Conflict
+Git has some built-in tools to help with checking out individual conflicts i.e either "there's" or "our's".
 
+The [`git checkout` command](https://www.git-scm.com/docs/git-checkout) can checkout the individual changes during a merge conflict using the `--theirs` or `--ours` flags.
 
+- `--ours` will overwrite the file with the changes from the branch you are currently on and merging into
+- `--theirs` will overwrite the file with the changes from the branch you are merging into the current branch
+
+```bash
+git checkout --theirs path/to/file
+```
