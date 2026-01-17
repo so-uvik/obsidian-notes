@@ -75,6 +75,6 @@ In a merge conflict:
 git merge their_branch
 ```
 
-## Git Terminology
+## Checkout Conflict
 
-Last time, we manually edited the conflicting files. This time, let's use Git's built-in merge resolution tools. It makes use of the terms "ours" and "theirs" to refer to the branches being merged.
+
