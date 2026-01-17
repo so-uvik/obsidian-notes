@@ -86,3 +86,5 @@ The [`git checkout` command](https://www.git-scm.com/docs/git-checkout) can chec
 ```bash
 git checkout --theirs path/to/file
 ```
+
+This could be helpful when you want `our's` change for a certain file and `their's` change for some other files without having to go manually into the file and then one by one resolving the conflicts.
