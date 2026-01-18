@@ -6,3 +6,15 @@ A common complaint about rebase is that there are times when you may have to man
 
 In other words, if enabled, `rerere` will remember how you resolved a conflict (applies to rebasing but also merging) and will automatically apply that resolution the next time it sees the same conflict. Pretty neat, right?
 
+You can enable rerere locally using the following command:
+
+```shell
+git config set --local rerere.enabled true
+```
+
+>[!Tip]
+>ReReRe maintains a cache of recorded resolutions, if you ever want to delete the cache you can do so with `rm -rf .git/rr-cache`
+
+
+
+
