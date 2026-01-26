@@ -6,3 +6,13 @@ The [`git cherry-pick` command](https://git-scm.com/docs/git-cherry-pick) solves
 ```sh
 git cherry-pick <commit-hash>
 ```
+
+# How to Cherry Pick
+
+1. First, you need a clean working tree (no uncommitted changes).
+2. Identify the commit you want to cherry-pick, typically by `git log`ing the branch it's on.
+3. Run:
+
+```sh
+git cherry-pick <commit-hash>
+```
