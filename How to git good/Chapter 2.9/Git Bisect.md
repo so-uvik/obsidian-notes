@@ -30,3 +30,17 @@ Keep repeating the process: compile the tree, test it, and depending on whether 
 
 Eventually there will be no more revisions left to inspect, and the command will print out a description of the first bad commit. The reference `refs/bisect/bad` will be left pointing at that commit.
 
+## Automate Git Bisect
+
+```
+Bisect run
+       If you have a script that can tell if the current source code is good or bad, you can
+       bisect by issuing the command:
+
+           $ git bisect run my_script arguments
+
+       Note that the script (my_script in the above example) should exit with code 0 if the
+       current source code is good/old, and exit with a code between 1 and 127 (inclusive),
+       except 125, if the current source code is bad/new.
+```
+
