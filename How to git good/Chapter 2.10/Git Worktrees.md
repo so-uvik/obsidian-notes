@@ -49,3 +49,41 @@ git worktree add <path> [<branch>]
 ```
 
 Adding `<branch>` is optional. It will use the last part of the path as the branch name.
+
+# No Duplicate Branches
+
+Linked worktrees behave just like a "normal" `git` repo. You can create new branches, switch branches, delete branches, create tags, etc etc.
+
+_BUT_ there is one thing you **cannot** do... you cannot work on a branch that is currently checked out by any other working tree (main or linked).
+
+# Tracking
+
+So how does your main worktree know about your linked worktree? Well, the references are stored in the `.git/worktrees` directory!
+
+# Upstream
+
+When you make a change in a _linked_ worktree, that change is automatically reflected in the _main_ worktree!
+
+It makes sense: the linked worktree doesn't have a `.git` directory, so it's not a separate repository. It's just a different view of the _same_ repository.
+
+You can almost think of a linked worktree as just another branch in the same repo, but with its own space on the filesystem.
+
+# Delete Worktrees
+
+You may never need to stash again! Okay, stash is still useful for tiny stuff, but worktrees are so much better for long-lived changes.
+
+However, at some point you will need to clean up your worktrees. The simplest way is the [`remove` subcommand](https://git-scm.com/docs/git-worktree#Documentation/git-worktree.txt-remove):
+
+```sh
+git worktree remove WORKTREE_NAME
+```
+
+An alternative is to delete the directory manually, then [`prune`](https://git-scm.com/docs/git-worktree#Documentation/git-worktree.txt-prune) all the worktrees (removing the references to deleted directories):
+
+```sh
+git worktree prune
+```
+
+>[!Note]
+>Whenever you delete a worktree, it's branches are not deleted. They can now be switched to from the main working tree. This is because of how linked worktrees LINKS to the main worktree and do not have anything of their own entirely.
+
