@@ -1,5 +1,6 @@
 {
   "vimMode": false,
   "settingsPopoutWindow": false,
-  "showLineNumber": true
+  "showLineNumber": false,
+  "newFileLocation": "current"
 }
