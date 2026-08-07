@@ -1,0 +1,1 @@
+This writeup follows the tutorial for boot.dev [ typescript](https://www.boot.dev/lessons/e70b9105-aa89-4ccd-8623-cc483b5b9a48) course
