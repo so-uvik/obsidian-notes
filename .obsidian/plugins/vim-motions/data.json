@@ -172,7 +172,7 @@
     "clipboard": "unnamedplus",
     "scrolloffLines": 8,
     "enableTextObjects": true,
-    "number": "true",
-    "relativenumber": "true"
+    "number": true,
+    "relativenumber": true
   }
 }
