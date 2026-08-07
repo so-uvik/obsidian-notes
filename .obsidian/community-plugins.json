@@ -2,5 +2,6 @@
   "obsidian-git",
   "obsidian-icon-folder",
   "file-explorer-note-count",
-  "calendar"
+  "calendar",
+  "vim-motions"
 ]
