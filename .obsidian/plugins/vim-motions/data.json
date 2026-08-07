@@ -163,5 +163,16 @@
   "smearStiffness": 0.6,
   "smearTrailingStiffness": 0.3,
   "smearDamping": 0.85,
-  "smearMaxLength": 400
+  "smearMaxLength": 400,
+  "persistedMarks": [],
+  "harpoonPins": [],
+  "persistedJumpList": [],
+  "persistedFolds": {},
+  "configOverrides": {
+    "clipboard": "unnamedplus",
+    "scrolloffLines": 8,
+    "enableTextObjects": true,
+    "number": "true",
+    "relativenumber": "true"
+  }
 }
