@@ -166,7 +166,78 @@
   "smearMaxLength": 400,
   "persistedMarks": [],
   "harpoonPins": [],
-  "persistedJumpList": [],
+  "persistedJumpList": [
+    {
+      "filePath": "Typescript/Chapter 5/Optional Object Properties.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Discriminated Unions.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Extra Properties.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Object Literal Types.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Optional Object Properties.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Discriminated Unions.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Optional Object Properties.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Discriminated Unions.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Extra Properties.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Object Literal Types.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Extra Properties.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Discriminated Unions.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Optional Object Properties.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 5/Discriminated Unions.md",
+      "line": 0,
+      "ch": 0
+    }
+  ],
   "persistedFolds": {},
   "configOverrides": {
     "clipboard": "unnamedplus",
