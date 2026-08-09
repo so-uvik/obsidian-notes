@@ -28,3 +28,18 @@ type FormData = {
 This type says:
 
 > The object must have an `email` (string), `password` (string), and `age` (number) property, but it can have any number of additional string, number, or boolean properties.
+
+>[!Tip]
+>Take a look at this piece of code here:
+>```typescript
+>type FormData = {
+  [field: string]: string | number | boolean;
+  email: string;
+  password: string;
+  age: number;
+};
+>```
+>If you remove any of `number` or `boolean` from the dynamic key, typescript will throw an error, because in TypeScript, **index signatures (dynamic keys) must encompass all explicit properties defined in the object type**.
+They are not treated as separate or isolated definitions; instead, an index signature acts as a blanket rule enforcing what types _any_ property on that object can possibly have.
+
+So a Dynamic key should have all of the types of other keys in that Type.
