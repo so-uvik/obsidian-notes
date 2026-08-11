@@ -26,4 +26,4 @@ function executeCommand([cmd, ...args]: Command) {
 }
 ```
 
-It says "I _need_ a command string, but everything after that is optional". Pretty neat. Remember, the whole point of a great type system is to more accurately (and narrowly) model the valid states of your program.
+It says "I _need_ a command string, but everything after that is optional". Pretty neat. Remember, the whole point of a great type system is to more accurately (and narrowly) model the valid states of your program. 
