@@ -32,7 +32,7 @@ type ElfOrHuman = Human | Elf;
 ```
 
 - Use unions to say your type is "this OR that"
-- Use intersections to say your type is "this AND that", or sometimes more simply, "this with the additional properties of that"So we've covered how unions (|) and intersections (&) are both used to smoosh types together... but which should you use?
+- Use intersections to say your type is "this AND that", or sometimes more simply, "this with the additional properties of that" So we've covered how unions (|) and intersections (&) are both used to smoosh types together... but which should you use?
 Unions
 
     Use the | operator (suspiciously similar to the logical OR operator)
