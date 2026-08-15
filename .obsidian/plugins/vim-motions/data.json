@@ -46,7 +46,7 @@
   "enableDial": false,
   "listContinuationOnOpen": true,
   "enableTableNav": true,
-  "tableWidgetMode": "cursor",
+  "tableWidgetMode": "native",
   "yankHighlightMode": "solid",
   "yankHighlightDuration": 200,
   "signcolumn": "auto",
@@ -149,7 +149,7 @@
   "snippetDirectory": "",
   "snippetTriggerMode": "both",
   "enableVimTextareas": false,
-  "conflictNoticeDismissedVersion": "0.100.0",
+  "conflictNoticeDismissedVersion": "0.110.0",
   "enableUndoTree": true,
   "undoFile": false,
   "undoTreeMaxNodes": 1000,
@@ -234,6 +234,16 @@
     },
     {
       "filePath": "Typescript/Chapter 5/Discriminated Unions.md",
+      "line": 0,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 8/Extending Interfaces.md",
+      "line": 2,
+      "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 8/Interfaces.md",
       "line": 0,
       "ch": 0
     }

@@ -10,6 +10,10 @@ This works great if these are the only valid error codes, but what if:
 2. "OK", "NOT_FOUND", and "INTERNAL_ERROR" are the most common values and we like to have them show up in autocomplete
 
 TypeScript has a hacky way for us to express this: super set unions.
+```typescript
+type ErrorCodes = "OK" | "NOT_FOUND" | "INTERNAL_ERROR" | (string & {});
+```
+
 
 ```typescript
 type ErrorCodes = "OK" | "NOT_FOUND" | "INTERNAL_ERROR" | (string & {});
