@@ -52,3 +52,6 @@ var Class;
 ```
 
 String enums do _not_ support reverse mapping - the compiled JavaScript only maps from name to string value, not the other way around.
+
+>[!tip]
+>If an `enum` is referenced that is not a key in the enum table, then it returns `undefined` as a value.
