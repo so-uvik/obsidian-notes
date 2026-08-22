@@ -50,8 +50,8 @@
   "yankHighlightMode": "solid",
   "yankHighlightDuration": 200,
   "signcolumn": "auto",
-  "number": true,
-  "relativenumber": true,
+  "number": false,
+  "relativenumber": false,
   "numberwidth": 2,
   "linenumbermode": "hybrid",
   "statuscolumn": "",
@@ -63,7 +63,7 @@
   "enableHintMode": true,
   "hintModeLabels": "asdfghjkl",
   "hintModeHotkey": "",
-  "scrolloffLines": 8,
+  "scrolloffLines": 5,
   "multilineScanLimit": 20,
   "easyMotionLabels": "asdghklqwertyuiopzxcvbnmfj",
   "labelFontSize": 14,
@@ -75,7 +75,7 @@
     "replace": "underline",
     "operatorPending": "underline"
   },
-  "clipboard": "unnamedplus",
+  "clipboard": "",
   "tabstop": 4,
   "shiftwidth": 4,
   "expandtab": true,
@@ -248,5 +248,12 @@
       "ch": 0
     }
   ],
-  "persistedFolds": {}
+  "persistedFolds": {},
+  "configOverrides": {
+    "clipboard": "unnamedplus",
+    "scrolloffLines": 8,
+    "enableTextObjects": true,
+    "number": true,
+    "relativenumber": true
+  }
 }
