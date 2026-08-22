@@ -7,6 +7,27 @@
 .vim-motions-raw-table .cm-editor .cm-table-widget {
     display: none;
 }
+.vim-motions-table-nav-active {
+    outline: 2px solid var(--interactive-accent);
+    outline-offset: -1px;
+    border-radius: var(--radius-s);
+}
+
+.cm-editor .vim-motions-table-nav-mode.cm-table-widget,
+.cm-editor .vim-motions-table-nav-mode .cm-table-widget {
+    cursor: default;
+    overflow: visible;
+}
+
+.vim-motions-table-nav-cell-hidden {
+    visibility: hidden;
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.vim-motions-cursor-layer-hidden {
+    display: none;
+}
 
 /* --- Vim panel (align fork with Obsidian theme) --- */
 

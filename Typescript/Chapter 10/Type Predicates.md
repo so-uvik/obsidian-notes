@@ -21,7 +21,7 @@ function processValue(value: unknown) {
 }
 ```
 
-For simple stuff like this, we could have just inlined the `typeof` check:
+For simple stuff like this, we could have just in lined the `typeof` check:
 
 ```ts
 function processValue(value: unknown) {

@@ -50,8 +50,8 @@
   "yankHighlightMode": "solid",
   "yankHighlightDuration": 200,
   "signcolumn": "auto",
-  "number": false,
-  "relativenumber": false,
+  "number": true,
+  "relativenumber": true,
   "numberwidth": 2,
   "linenumbermode": "hybrid",
   "statuscolumn": "",
@@ -63,7 +63,7 @@
   "enableHintMode": true,
   "hintModeLabels": "asdfghjkl",
   "hintModeHotkey": "",
-  "scrolloffLines": 5,
+  "scrolloffLines": 8,
   "multilineScanLimit": 20,
   "easyMotionLabels": "asdghklqwertyuiopzxcvbnmfj",
   "labelFontSize": 14,
@@ -75,7 +75,7 @@
     "replace": "underline",
     "operatorPending": "underline"
   },
-  "clipboard": "",
+  "clipboard": "unnamedplus",
   "tabstop": 4,
   "shiftwidth": 4,
   "expandtab": true,
@@ -149,7 +149,7 @@
   "snippetDirectory": "",
   "snippetTriggerMode": "both",
   "enableVimTextareas": false,
-  "conflictNoticeDismissedVersion": "0.110.0",
+  "conflictNoticeDismissedVersion": "0.120.1",
   "enableUndoTree": true,
   "undoFile": false,
   "undoTreeMaxNodes": 1000,
@@ -248,12 +248,5 @@
       "ch": 0
     }
   ],
-  "persistedFolds": {},
-  "configOverrides": {
-    "clipboard": "unnamedplus",
-    "scrolloffLines": 8,
-    "enableTextObjects": true,
-    "number": true,
-    "relativenumber": true
-  }
+  "persistedFolds": {}
 }
