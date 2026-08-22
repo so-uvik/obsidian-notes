@@ -3,7 +3,7 @@ Sometimes the built-in type guards ([`typeof`](https://www.typescriptlang.org/do
 TypeScript allows you to create your own type guards using [**type predicates**](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates). We do that by creating a function that:
 
 - Accepts a wide type that we want to narrow
-- Returns a boolean indicating if the value is of the desired type
+- Returns a `boolean` indicating if the value is of the desired type
 - Uses the type predicate syntax `value is Type` in the return type
 
 For example, here's a function that reports if a value is a string:
