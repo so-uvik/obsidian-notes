@@ -21,6 +21,9 @@ function processValue(value: unknown) {
 }
 ```
 
+>[!note]
+>It's just like telling typescript that IFF the function returns `true` then the value that is passed in as an `argument` is definitely of `string` type. And this only works when the function returns some sort of `boolean` value.
+
 For simple stuff like this, we could have just in lined the `typeof` check:
 
 ```ts
@@ -59,6 +62,8 @@ function isManagerAdmin(
   return "numEmployees" in boss && "accessLevel" in boss;
 }
 ```
+
+The above code snippet tells the typescript compiler, "treat a `true` result from this function as proof that the argument is a `ManagerAdmin`, and narrow accordingly wherever this function is called in a condition."
 
 ```ts
 // boss is a `ManagerAdmin | Admin | Manager`
