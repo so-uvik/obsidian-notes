@@ -251,6 +251,11 @@
       "filePath": "Typescript/Chapter 11/Parameter Properties.md",
       "line": 25,
       "ch": 0
+    },
+    {
+      "filePath": "Typescript/Chapter 13/Generic Constraints.md",
+      "line": 0,
+      "ch": 14
     }
   ],
   "persistedFolds": {},
