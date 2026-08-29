@@ -71,4 +71,3 @@ const discountedTVS = applyDiscount(tvs, 0.5);
 // ... also you can't buy people what is wrong with you???
 const discountedPeople = applyDiscount(people, 0.2);
 ```
-
