@@ -2,7 +2,7 @@ There's no need to be limited to just a single [type parameter](https://www.type
 
 To _prove_ that `T` is just a random name, I'm going to use longer names in this lesson... but just be aware that short capital letters like `T`, `U`, `V`, etc. are the most common convention for generic type parameters.
 
-Let's create a function that "transforms" its inputs. It takes as input:
+Let's create a function that "transforms" its inputs. It takes as input: jkjkjkjkjkjkajkajskjalskjdalksdjaslkdjaslkdja;sldkjaldskjd;salkdjsa;ldksj;
 
 - An array of items of type `InputType`
 - A function that takes an item of type `InputType` and returns an item of type `OutputType`
